@@ -1,9 +1,9 @@
 #!/bin/bash
 if [ $# -lt 2 ]; then
-  echo "This script can be used to toggle admin security on and off in a ColdFusion 10 server instance."
+  echo "This script can be used to toggle admin security on and off in a ColdFusion 2016 server instance."
   echo ""
   echo "Usage: $0 <cf_home> <admin_security>"
-  echo "where <cf_home> points to the root of a CF server instance, eg. /opt/cf2016/cfusion"
+  echo "where <cf_home> points to the root of a CF server instance, eg. /opt/coldfusion2016/cfusion"
   echo "      <admin_security> specifies the desired admin security state. Specify 'false' to turn it off, and 'true' for on. "
   echo ""
   exit
