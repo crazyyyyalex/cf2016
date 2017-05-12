@@ -1,7 +1,7 @@
 FROM phusion/baseimage:0.9.17
 MAINTAINER accent
 EXPOSE 80 8500
-VOLUME ["/var/www", "/tmp/config", "/opt/coldfusion2016"]
+VOLUME ["/var/www", "/tmp/config"]
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update
